@@ -1,6 +1,6 @@
-placas.pdf : datos.txt grafica.py
+placas.pdf : placas.txt grafica.py
   python grafica.py
   
-datos.txt : placas.cpp
+placas.txt : placas.cpp
   c++ placas.cpp -o placas
-  ./placas > datos.txt
+  ./placas > placas.txt
