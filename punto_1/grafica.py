@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = np.loadtxt('datos.txt')
+data = np.loadtxt('placas.txt')
 
 N = 512
 L = 5.0
